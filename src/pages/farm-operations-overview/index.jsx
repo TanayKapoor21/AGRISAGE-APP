@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/ui/Header';
-import AlertBanner from '../../components/ui/AlertBanner';
+import AlterBanner from '../../components/ui/AlterBanner';
 import KPICard from './components/KPICard';
 import FieldMap from './components/FieldMap';
 import AlertFeed from './components/AlertFeed';
@@ -117,7 +117,7 @@ const FarmOperationsOverview = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <AlertBanner />
+      <AlterBanner />
       <main className="pt-16">
         {/* Top Controls Bar */}
         <div className="sticky top-16 z-30 bg-card border-b border-border shadow-sm">

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import Header from '../../components/ui/Header';
-import AlertBanner from '../../components/ui/AlertBanner';
+import AlterBanner from '../../components/ui/AlterBanner';
 import CropSelector from './components/CropSelector';
 import MetricsStrip from './components/MetricsStrip';
 import YieldProgressionChart from './components/YieldProgressionChart';
@@ -53,7 +53,7 @@ const CropAnalyticsDashboard = () => {
         </Helmet>
         
         <Header />
-        <AlertBanner />
+        <AlterBanner />
         
         <main className="pt-16">
           <div className="container mx-auto px-6 py-8">
@@ -91,7 +91,7 @@ const CropAnalyticsDashboard = () => {
         <meta property="og:type" content="website" />
       </Helmet>
       <Header />
-      <AlertBanner />
+      <AlterBanner />
       <main className="pt-16">
         <div className="container mx-auto px-6 py-8 max-w-7xl">
           {/* Page Header */}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/ui/Header';
-import AlertBanner from '../../components/ui/AlertBanner';
+import AlterBanner from '../../components/ui/AlterBanner';
 import Icon from '../../components/AppIcon';
 import Button from '../../components/ui/Button';
 import Select from '../../components/ui/Select';
@@ -139,7 +139,7 @@ const EnvironmentalMonitoring = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <AlertBanner />
+      <AlterBanner />
       <main className="pt-16">
         {/* Page Header */}
         <div className="bg-card border-b border-border">

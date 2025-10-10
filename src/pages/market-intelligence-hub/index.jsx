@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/ui/Header';
-import AlertBanner from '../../components/ui/AlertBanner';
+import AlterBanner from '../../components/ui/AlterBanner';
 import MarketKPICard from './components/MarketKPICard';
 import PriceForecastChart from './components/PriceForecastChart';
 import MarketNewsFeed from './components/MarketNewsFeed';
@@ -82,7 +82,7 @@ const MarketIntelligenceHub = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <AlertBanner />
+      <AlterBanner />
       <main className="pt-16">
         {/* Page Header */}
         <div className="bg-gradient-to-r from-primary/10 to-secondary/10 border-b border-border">

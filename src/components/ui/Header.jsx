@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Icon from '../AppIcon';
 import Button from './Button';
 import { useLanguage } from '../../contexts/LanguageContext';
-import NotificationCenter from './NotificationCenter';
+import NotificationCenter from './NotificationCentre';
 import LanguageToggle from './LanguageToggle';
 
 const Header = () => {
